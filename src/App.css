@@ -1,0 +1,138 @@
+/* ===== BODY ===== */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  background-color: #1e1e28;
+  color: #e0e0e0;
+}
+
+/* ===== CONTAINER ===== */
+div {
+  max-width: 650px;
+  margin: auto;
+  padding: 20px;
+}
+
+/* ===== NAVBAR ===== */
+.Navbar {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  padding: 18px;
+  background-color: #2a2a38;
+  border-bottom: 1px solid #444;
+}
+
+.Link {
+  color: #cfcfcf;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 16px;
+  transition: color 0.3s ease;
+}
+
+.Link:hover {
+  color: #ffffff;
+}
+
+/* ===== HEADINGS ===== */
+h2, h3 {
+  text-align: center;
+  color: #ffffff;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+/* ===== FORM ===== */
+.form-box {
+  background-color: #2a2a38;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.3);
+}
+
+/* ===== INPUTS ===== */
+.input {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  border-radius: 8px;
+  border: 1px solid #555;
+  background-color: #1e1e28;
+  color: #e0e0e0;
+  font-size: 15px;
+  transition: border 0.3s ease, box-shadow 0.3s ease;
+}
+
+.input:focus {
+  outline: none;
+  border-color: #4a90e2;
+  box-shadow: 0 0 8px rgba(74,144,226,0.5);
+}
+
+/* ===== SELECT BOX ===== */
+select.input {
+  appearance: none;
+  background-color: #1e1e28;
+  cursor: pointer;
+}
+
+/* ===== BUTTON ===== */
+.btn {
+  width: 100%;
+  padding: 14px;
+  border-radius: 8px;
+  border: none;
+  background-color: #4a90e2;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.btn:hover {
+  background-color: #357abd;
+  transform: translateY(-2px);
+}
+
+/* ===== ERROR MESSAGES ===== */
+.error {
+  color: #ff6b6b;
+  font-size: 13px;
+  margin-top: -10px;
+  margin-bottom: 10px;
+}
+
+/* ===== CARDS ===== */
+.card {
+  background-color: #2a2a38;
+  padding: 20px;
+  margin-top: 25px;
+  border-radius: 12px;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.3);
+  border-left: 5px solid #4a90e2;
+}
+
+.card p {
+  font-size: 14px;
+  margin: 6px 0;
+}
+
+/* ===== HR ===== */
+hr {
+  border: 0;
+  border-top: 1px solid #444;
+  margin: 12px 0;
+}
+
+/* ===== NO DATA ===== */
+.nodata {
+  background-color: #2a2a38;
+  padding: 18px;
+  border-radius: 10px;
+  text-align: center;
+  font-size: 16px;
+  color: #aaa;
+}
